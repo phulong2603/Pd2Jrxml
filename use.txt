@@ -1,0 +1,13 @@
+Execute the following maven command to compile and run the included sample
+1 mvn package
+2 cd target
+3 ./pdf2jrxml.sh
+
+
+java -jar pdf2jrxml.sh [-h] [-c <configuration file name>]
+     [i <input file names>] [-o <output file names>] 
+short	long		description
+-h,		--help		show help
+-c,		--conf		configuration filename
+-i,		--input		path to input pdf file
+-o,		--output	path to generate jrxml file

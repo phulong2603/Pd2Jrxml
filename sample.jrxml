@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PDF2Jrxml Form" pageWidth="612" pageHeight="792" columnWidth="612" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="291a24eb-475e-4fff-84a7-b519d74c491c">
+	<title>
+		<band height="792">
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="66" width="269" height="22" forecolor="#000000" uuid="7d1885d2-33bc-486a-a029-f652f5f97596"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[Phần dành cho QR code]  (Mã sản phẩm [xuất tự động] ) "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="154" y="86" width="300" height="22" forecolor="#000000" uuid="166b439e-7000-447a-9fcc-eece2abf1fe5"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CAM KẾT NHẬN KHOẢN VAY VÀ YÊU CẦU GIẢI NGÂN "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="108" width="308" height="22" forecolor="#000000" uuid="93743dc5-eb4b-4b87-8359-4392bcc31890"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Căn cứ Hợp Đồng Cho Vay số ……………….ký ngày …………  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="127" width="204" height="22" forecolor="#0070C0" uuid="c81f152b-31c6-4660-b262-37a28b7f74cd"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.  CAM KẾT NHẬN KHOẢN VAY "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="147" width="498" height="22" forecolor="#000000" uuid="97ae883b-d43f-4e1b-94b1-8003d9bce100"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bên Vay nhận nợ (Khoản Vay) với Bên Cho Vay một khoản tiền gốc là <Loan Amount> VNĐ (<In word> "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="161" width="57" height="22" forecolor="#000000" uuid="6abeba33-1241-4701-a678-83f6483e3d9d"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["đồng chẵn). "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="180" width="507" height="22" forecolor="#000000" uuid="9614e2d7-7bab-488b-a889-96ca06d5c789"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bên Vay cam kết sẽ hoàn trả Khoản Vay cho Bên Cho Vay khi đến kỳ hạn trả nợ và/hoặc theo thông báo của "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="194" width="493" height="22" forecolor="#000000" uuid="0103f589-dc79-4be6-8279-e9da6e800b14"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bên Cho Vay (phù hợp với quy định trong Hợp Đồng Cho Vay) bao gồm tiền gốc cùng với các khoản tiền "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="208" width="505" height="22" forecolor="#000000" uuid="7aef9e02-b1be-4713-b889-780f3640a1e4"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["lãi và các khoản phí (nếu có) phát sinh kể từ Ngày Giải Ngân cho đến ngày Bên Vay hoàn trả toàn bộ Khoản "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="222" width="393" height="22" forecolor="#000000" uuid="c6310405-c4e2-4dfe-977d-e4cebdffdc50"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vay. Mức lãi suất và thời điểm thanh toán lãi được quy định tại Hợp Đồng Cho Vay. "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="241" width="486" height="22" forecolor="#000000" uuid="616f9117-b671-4af8-b02f-4c19485d3ac9"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bên Vay cũng công nhận và đồng ý rằng Bên Vay được cho là đã nhận được đầy đủ Khoản Vay vào thời "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="255" width="437" height="22" forecolor="#000000" uuid="c94638ea-406f-406b-9d67-530c6aa75669"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["điểm Bên Cho Vay thực hiện lệnh chuyển tiền thành công trên hệ thống ngân hàng trực tuyến. "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="275" width="506" height="22" forecolor="#000000" uuid="6104eb4e-a1d5-4c8c-b555-8a6b03f71b22"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bên Vay cam kết về việc thanh toán Khoản Vay và không có điều khoản nào trong văn bản này bị hủy bỏ vô "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="289" width="124" height="22" forecolor="#000000" uuid="a93e3b6b-2c70-488b-b462-3b9dfb671cb9"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["điều kiện hoặc hủy ngang. "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="308" width="152" height="22" forecolor="#000000" uuid="ccaa1cbc-8b3c-4aa9-be11-fbd5ecbdbf11"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.  YÊU CẦU GIẢI NGÂN "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="328" width="130" height="22" forecolor="#000000" uuid="9b09c7ee-e608-49eb-8179-00c36260ae0b"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Khoản Vay:  [xuất tự động] "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="348" width="258" height="22" forecolor="#000000" uuid="3d95f898-2563-461a-990a-6000603c8238"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Phí bảo hiểm theo Hợp đồng bảo hiểm :  [xuất tự động] "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="367" width="259" height="22" forecolor="#000000" uuid="78f75266-2e68-4283-8085-b135d77f2cf7"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số tiền còn lại sau khi trừ phí bảo hiểm:  [xuất tự động] "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="387" width="124" height="22" forecolor="#000000" uuid="cbb20894-8bc1-42bb-a0f0-e10bbb360a1b"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chi tiết giải ngân như sau: "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="407" width="332" height="22" forecolor="#000000" uuid="8eeea87e-3498-45da-9473-5f31e0f5a319"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.  Giải ngân bằng chuyển khoản vào tài khoản của Bên Vay :…...đồng "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="69" y="433" width="335" height="22" forecolor="#000000" uuid="b1319059-73f4-4fee-bed2-f7c8ec7cc32c"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tên chủ tài khoản Tài khoản số Tên Ngân hàng Chi nhánh Ký xác nhận "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="78" y="459" width="276" height="22" forecolor="#000000" uuid="b5267669-374f-4b31-b086-216e55a18714"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[xuất tự động] [xuất tự động] [xuất tự động] [xuất tự động]  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="485" width="385" height="22" forecolor="#000000" uuid="d79446d7-cd0c-4acc-90e8-277c4edd0ac3"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["&#9824;"+" Không đồng ý. Đề nghị chuyển khoản vào tài khoản khác của Bên Vay như sau: "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="69" y="512" width="335" height="22" forecolor="#000000" uuid="e50c90e6-5261-47ab-8498-37204d9e3ea0"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tên chủ tài khoản Tài khoản số Tên Ngân hàng Chi nhánh Ký xác nhận "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="78" y="538" width="80" height="22" forecolor="#000000" uuid="23ca643a-5fc6-4e5d-b30b-230598737b2f"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[xuất tự động]     "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="558" width="341" height="22" forecolor="#000000" uuid="468f19b1-6e8b-4cd6-ad3c-cddabfde9b73"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.   Giải ngân bằng chuyển khoản vào Tài khoản của các Bên thụ hưởng:  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="77" y="578" width="193" height="22" forecolor="#000000" uuid="f30bb473-19d4-4b25-8030-7fff33bba6d8"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["STT Tài khoản Tên Ngân Số tiền Ký xác "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="585" width="137" height="22" forecolor="#000000" uuid="274ecc58-235a-4236-ae3f-2d483ad3dfa5"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tên chủ tài khoản Chi nhánh "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="242" y="592" width="98" height="22" forecolor="#000000" uuid="486c6bf7-1699-4459-bce4-751c2fb34c73"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["số hàng (đồng) nhận "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="68" y="612" width="195" height="22" forecolor="#000000" uuid="d7735e3a-21e5-4da8-abbf-68ef78bb4130"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[xuất tự [xuất tự [xuất tự [xuất tự [xuất tự  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="129" y="619" width="68" height="22" forecolor="#000000" uuid="6d26effb-92d7-4e2b-9826-6eee47a497a5"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[xuất tự động] "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="73" y="626" width="149" height="22" forecolor="#000000" uuid="1c19a54b-7f24-4421-9fda-e83328a8bb6f"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["động] động] động] động] động] "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="646" width="343" height="22" forecolor="#0070C0" uuid="460914cf-fc1e-498b-afca-96ac6cfb08d3"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tổng cộng số tiền giải ngân: …………[xuất tự động]……đồng  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="666" width="151" height="22" forecolor="#0070C0" uuid="8c6cc026-6286-46ae-95dd-a026d35b774f"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Xác nhận thông tin liên lạc: "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="683" width="95" height="22" forecolor="#000000" uuid="60824b86-97b1-47d6-8fdc-f5d6eca8c18b"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["-  Địa chỉ nhận thư:  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="698" width="169" height="22" forecolor="#0070C0" uuid="1b1063a9-68b0-471e-b070-a2b6663560a5"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["&#9824;"+"  Đồng ý gửi theo địa chỉ bên dưới  "]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="728" width="352" height="16" forecolor="#000000" uuid="f00f68ae-d464-4cc6-9338-b9334f092a36"/>
+				<textElement textAlignment="Justified" markup="styled">
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Consumer Loan - Debt Acknowledgement and Disbursement Request - Version 16 – 12/2019 Trang 1/2 "]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>
